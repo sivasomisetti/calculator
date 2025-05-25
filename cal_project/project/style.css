@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+
+
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 1.0) ;
+
+}
+input{
+    width: 300px;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgps(84 ,84,84,0.1);
+    font-size: 45px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+input::placeholder{
+    color: #ffffff;
+}
+button{
+    border: none;
+    width: 59px;
+    height: 59px;
+    margin: 15px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 25px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2); 
+
+}
+.Equal{
+    color: whitesmoke;
+    background-color:orange;
+}
+.button{
+    color: green;
+}
